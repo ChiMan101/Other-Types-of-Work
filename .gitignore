@@ -1,0 +1,158 @@
+public class encryptionCode {
+	public static void main (String[] args) {
+
+		String str1 = "Knights are spectacular students!\n The best Knight is Connor Myers because he is a great studnet.";
+		int length1 = str1.length(); //Get the length of a starting String string1 (not shown)
+		String[] codes = { "C", "E", "H", "K", "M", "O", "D", "S", "Q", "U", "T",
+						   "P", "A", "Z", "W", "Y", "V", "N", "I", "X", "R", "F", "L",
+						   "B", "J", "G" }; //Make a new blank String
+		String codedString1 = ""; //Make a new blank String
+		String aCharacter = "";
+
+		for (int index1 = 0; index1 < length1 - 1; index1++) { //Stop 1 short...
+			//Get one character from "stirng1"
+			aCharacter = str1.substring(index1, index1 + 1);
+
+			switch (aCharacter) { //replace each letter with a different letter from our code list
+				case "a":
+				case "A":
+					codedString1 = codedString1 + codes[0];
+					break;
+
+				case "b":
+				case "B":
+					codedString1 = codedString1 + codes[1]; //other letters not shown, follow the same pattern for other symbols...
+					break;
+
+				case "c":
+				case "C":
+					codedString1 = codedString1 + codes[2];
+					break;
+
+				case "d":
+				case "D":
+					codedString1 = codedString1 + codes[3];
+					break;
+
+				case "e":
+				case "E":
+					codedString1 = codedString1 + codes[4];
+					break;
+
+				case "f":
+				case "F":
+					codedString1 = codedString1 + codes[5];
+					break;
+
+				case "g":
+				case "G":
+					codedString1 = codedString1 + codes[6];
+					break;
+
+				case "h":
+				case "H":
+					codedString1 = codedString1 + codes[7];
+					break;
+
+				case "i":
+				case "I":
+					codedString1 = codedString1 + codes[8];
+					break;
+
+				case "j":
+				case "J":
+					codedString1 = codedString1 + codes[9];
+					break;
+
+				case "k":
+				case "K":
+					codedString1 = codedString1 + codes[10];
+					break;
+
+				case "l":
+				case "L":
+					codedString1 = codedString1 + codes[11];
+					break;
+
+				case "m":
+				case "M":
+					codedString1 = codedString1 + codes[12];
+					break;
+
+				case "n":
+				case "N":
+					codedString1 = codedString1 + codes[13];
+					break;
+
+				case "o":
+				case "O":
+					codedString1 = codedString1 + codes[14];
+					break;
+
+				case "p":
+				case "P":
+					codedString1 = codedString1 + codes[15];
+					break;
+
+				case "q":
+				case "Q":
+					codedString1 = codedString1 + codes[16];
+					break;
+
+				case "r":
+				case "R":
+					codedString1 = codedString1 + codes[17];
+					break;
+
+				case "s":
+				case "S":
+					codedString1 = codedString1 + codes[18];
+					break;
+
+				case "t":
+				case "T":
+					codedString1 = codedString1 + codes[19];
+					break;
+
+				case "u":
+				case "U":
+					codedString1 = codedString1 + codes[20];
+					break;
+
+				case "v":
+				case "V":
+					codedString1 = codedString1 + codes[21];
+					break;
+
+				case "w":
+				case "W":
+					codedString1 = codedString1 + codes[22];
+					break;
+
+				case "x":
+				case "X":
+					codedString1 = codedString1 + codes[23];
+					break;
+
+				case "y":
+				case "Y":
+					codedString1 = codedString1 + codes[24];
+					break;
+
+				case "z":
+				case "Z":
+					codedString1  = codedString1 + codes[25];
+					break;
+
+				default:
+					codedString1 = codedString1 + "."; //Use something for non-letters
+				}
+		} //end of loop
+
+		//Get the very last character from "string 1" and repeat the switch statement...
+		aCharacter = str1.substring(length1 - 1);
+		System.out.println(codedString1);
+		//Second switch statement not shown for last character...
+	}
+}
+
