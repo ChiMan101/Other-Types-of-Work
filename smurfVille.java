@@ -27,17 +27,17 @@ public class smurfVille
             }
         }
         
-        /*for(int i = 0; i < 14; i++)
+        for(int i = 0; i < 14; i++)
         {
-            for(int i = 0; i < smurfVille.length; i++)
+            for(int j = 0; j < smurfVille.length; j++)
             {
-                if(smurfVille[i] instanceof GreenSmurf)
+                if(smurfVille[j] instanceof GreenSmurf)
                 {
                     System.out.println("Green Smurf");
-                    (GreenSmurf smurfVille[i]).plantTrees();
+                    ((GreenSmurf) smurfVille[j]).plantTrees();
                 }
             }
-        }*/
+        }
         
         
     }
