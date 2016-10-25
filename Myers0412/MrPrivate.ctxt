@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MrPrivate()
+comment1.params=balance
+comment1.target=MrPrivate(double)
+comment2.params=
+comment2.target=long\ getSSN()
+comment3.params=
+comment3.target=long\ getacctNum()
+comment4.params=
+comment4.target=double\ getacctBal()
+comment5.params=
+comment5.target=int\ getPIN()
+comment6.params=val
+comment6.target=long\ setSSN(long)
+comment7.params=val
+comment7.target=long\ setacctNum(long)
+comment8.params=val
+comment8.target=double\ setacctBal(double)
+comment9.params=val
+comment9.target=int\ setPIN(int)
+numComments=10
