@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShyUnicorn()
+comment1.params=name\ favPhr\ HorseAge\ myWeight
+comment1.target=ShyUnicorn(java.lang.String,\ java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getNick()
+comment3.params=
+comment3.target=java.lang.String\ getFavPhrase()
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=double\ getWeight()
+comment6.params=val
+comment6.target=java.lang.String\ setNick(java.lang.String)
+comment7.params=val
+comment7.target=java.lang.String\ setFavPhrase(java.lang.String)
+comment8.params=val
+comment8.target=int\ setAge(int)
+comment9.params=val
+comment9.target=double\ setWeight(double)
+numComments=10
