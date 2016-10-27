@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Dwarf()
+comment1.params=firstname\ lastname
+comment1.target=Dwarf(java.lang.String,\ java.lang.String)
+numComments=2

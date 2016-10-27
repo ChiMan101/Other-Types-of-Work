@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=OpenDwarf()
+comment1.params=firstname\ lastname
+comment1.target=OpenDwarf(java.lang.String,\ java.lang.String)
+comment2.params=earnings
+comment2.target=boolean\ work(int)
+comment3.params=month
+comment3.target=boolean\ growOlder(int)
+numComments=4

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SneakyDwarf()
+comment1.params=firstname\ lastname
+comment1.target=SneakyDwarf(java.lang.String,\ java.lang.String)
+comment2.params=earnings
+comment2.target=int\ stealSilver(int)
+comment3.params=amount
+comment3.target=boolean\ drinkAle(double)
+comment4.params=
+comment4.target=double\ getMyAle()
+comment5.params=
+comment5.target=int\ getMySilver()
+comment6.params=
+comment6.target=java.lang.String\ getMyPassword()
+comment7.params=val
+comment7.target=double\ setMyAle(long)
+comment8.params=val
+comment8.target=int\ setMySilver(int)
+comment9.params=val
+comment9.target=java.lang.String\ setMyPassword(java.lang.String)
+numComments=10
