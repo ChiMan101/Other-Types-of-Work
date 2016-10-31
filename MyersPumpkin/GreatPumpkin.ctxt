@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GreatPumpkin()
+comment1.params=myName\ myRisen\ mySeen
+comment1.target=GreatPumpkin(java.lang.String,\ int,\ int)
+comment2.params=numRisesThisYear
+comment2.target=int\ doHalloween(int)
+comment3.params=
+comment3.target=int\ getRisen()
+comment4.params=
+comment4.target=int\ getSeen()
+comment5.params=val
+comment5.target=int\ setRisen(int)
+comment6.params=val
+comment6.target=int\ setSeen(int)
+numComments=7

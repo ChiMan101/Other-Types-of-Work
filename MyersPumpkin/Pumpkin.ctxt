@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pumpkin()
+comment1.params=myName
+comment1.target=Pumpkin(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=val
+comment3.target=java.lang.String\ setName(java.lang.String)
+numComments=4
