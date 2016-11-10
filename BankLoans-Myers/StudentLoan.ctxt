@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StudentLoan()
+comment1.params=name\ loan\ principal\ inter
+comment1.target=StudentLoan(java.lang.String,\ int,\ double,\ double)
+numComments=2
