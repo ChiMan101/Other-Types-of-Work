@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=piece()
+comment1.params=desc1\ val1\ val2\ flag
+comment1.target=piece(java.lang.String,\ int,\ int,\ boolean)
+numComments=2
