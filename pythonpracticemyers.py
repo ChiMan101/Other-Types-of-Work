@@ -50,7 +50,15 @@ smaller_value(num1,num2)
 '''
 3. Do not use len(). Write a function to calculate how many elements do you have in your list, and return it
 '''
-#def my_len(lis):
+mylist = [1,2,3]
+
+def my_len(lis):
+    icounter = 0
+    for z in lis:
+        icounter+=1
+    print ("%d elements in list "% (icounter))
+
+my_len(mylist)
 
 '''
 4. input: a list with small strings that has 2 letters, 3 letters, or 4 letters
@@ -63,8 +71,25 @@ will give
     Letter4=['asdf','user']
 You can use len() in this question.
 '''
-#def cate_letters(LongStr):
+mylist = []
 
+numInputs = input('How strings do you want to input')
+numInputs = int(numInputs)
+
+for x in numInputs:
+    str1 = input('Enter a string: ')
+    mylist.append(str1)
+
+
+print(mylist)
+
+def cate_letters(LongStr):
+    Letter2 = []
+    Letter3 = []
+    Letter4 = []
+
+        
+    
 
 '''
 5. input: a string with character in it, a string with numbers in it
