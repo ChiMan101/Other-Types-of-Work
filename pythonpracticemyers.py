@@ -173,7 +173,26 @@ love6(6, 4) returns True
 love6(4, 5) returns False
 love6(1, 5) returns True
 '''
-#def love6(a,b):
+aInt = input("Input a Integer Value.")
+bInt = input("Input another Integer Value.")
+
+def love6(a,b):
+    a = int(a)
+    b = int(b)
+    if(a == 6 or b == 6):
+        return True;
+    elif((a+b)== 6 or (a-b)==6 or (b-a)==6):
+        return True;
+    else:
+        return False;
+
+result = love6(aInt, bInt)
+
+if(result == True):
+    print("Your numbers either had a 6 in it or it had a sum or difference of 6!")
+else:
+    print("Your numbers did not have a 6 in it or a sum or difference of 6.")
+
 
 '''
 ########
