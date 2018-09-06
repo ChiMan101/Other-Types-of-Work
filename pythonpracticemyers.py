@@ -72,21 +72,45 @@ will give
 You can use len() in this question.
 '''
 mylist = []
+#gets input frm user
+str1 = input('Enter a string: ')
+mylist.append(str1)
+str2 = input('Enter a string: ')
+mylist.append(str2)
+str3 = input('Enter a string: ')
+mylist.append(str3)
+str4 = input('Enter a string: ')
+mylist.append(str4)
+str5 = input('Enter a string: ')
+mylist.append(str5)
 
-numInputs = input('How strings do you want to input')
-numInputs = int(numInputs)
-
-for x in numInputs:
-    str1 = input('Enter a string: ')
-    mylist.append(str1)
-
-
-print(mylist)
+#print(mylist)
 
 def cate_letters(LongStr):
+    #defines the arrays we will be spliting the list into
     Letter2 = []
     Letter3 = []
     Letter4 = []
+    
+    #loops through the list to find whether a string is 2, 3, or 4 chars long and adds the item to list based on len
+    for x in LongStr:
+        if len(x) == 2:
+            Letter2.append(x);
+        elif len(x) == 3:
+            Letter3.append(x);
+        elif len(x) == 4:
+            Letter4.append(x);
+        else:
+            print("Not a valid parameter.")
+
+    #prints out the lists
+    print (Letter2)
+    print (Letter3)
+    print (Letter4)
+#calls function    
+cate_letters(mylist)
+
+    
 
         
     
@@ -96,8 +120,19 @@ def cate_letters(LongStr):
 output: go through the two strings together, print out elements by index
 format "the elements at index __ from string1 is __, from string2 is ___"
 '''
-#def two_strings(str1,str2)
+#gets input
+strWithChar = input('Enter a string: ')
+strWithNum = input('Enter a string: ')
 
+
+#must be the same length in strings
+def two_strings(str1,str2):
+    icounter = 0
+    for x in zip(str1,str2):
+        print ("the elements at index %s from string1 is %s, from string2 is %s"% (icounter,str1[icounter],str2[icounter]))
+        icounter+=1
+    
+two_strings(strWithChar,strWithNum)
 '''
 6. input: a string with character in it, a string with numbers in it
 output: go through the two strings together. At index i, if the number in str2 is even, put the letter in str1 into evenStr
@@ -105,7 +140,28 @@ if the number is odd, put the letter into oddStr. Return the even/odd strings
 Sample: "helloworld" "2435232399"
 gives evenStr="heoo" oddStr="llwrld"
 '''
-#def two_strings(str1,str2)
+#gets input
+strWithChar = input('Enter a string: ')
+strWithNum = input('Enter a string: ')
+
+
+#must be the same length in strings
+def two_strings(str1,str2):
+    oddL = ''
+    evenL = ''
+    icounter = 0
+    for x,y in zip(str1,str2):
+            num = int(str2[icounter])
+            if num%2 == 0 :
+                evenL += str1[icounter]
+            elif num%2 != 0:
+                oddL += str1[icounter]
+            icounter+=1
+    print ("Odd String: '%s'"% (oddL))
+    print ("Even String: '%s'"% (evenL))
+                
+            
+two_strings(strWithChar, strWithNum)        
 
 '''
 7.
@@ -144,6 +200,7 @@ Sample: [0,2,0,1,3,1,4,5,2,5] should return "Legit"
 
 '''
 #def check_legit_ISBN(ISBNLis):
+    
 
 '''
 Helper func 2: format output
